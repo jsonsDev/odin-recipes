@@ -1,0 +1,57 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+img {
+    border-radius: 2px;
+}
+ 
+.header {
+border-bottom: 1px solid #a1a1a1;
+width: 100%;
+padding-left: 36px;
+}
+
+.content-container {
+    padding: 36px;
+}
+
+.recipe-list {
+    margin-left: -36px;
+}
+
+.navigation {
+    margin-right: 12px;
+    display: inline-block;
+    background-color: #d54215;
+    padding: 12px 24px;
+}
+
+.navigation a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navigation:hover {
+    background-color: #b53811;
+}
+
+.home-button {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 12px 24px;
+    background-color: #d54215;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+.home-button:hover {
+    background-color: #b53811;
+}
